@@ -1,0 +1,138 @@
+:root {
+  /* Genericos */
+  --raisin-black: #1b1e25ff;
+  --soft-raisin-black: rgb(59, 65, 80);
+  --mint-cream: #f7fff7ff;
+  /* Synth noche */
+  --primario: #68d0fa;
+  --secundario: #49aaee;
+  --terciario: #e6bde8;
+  --cuaternario: #ee9eba;
+  --extra1: #1687ec;
+}
+
+.nave {
+  background-color: var(--raisin-black);
+  border-bottom: solid 2px var(--primario);
+}
+
+.nave a {
+  color: var(--primario);
+}
+
+.nave a div {
+  background-color: var(--raisin-black);
+}
+
+.nave div:hover {
+  color: var(--raisin-black);
+  background-color: var(--primario);
+}
+
+.menu-icon{
+  background-image: url("../Logos/hamburguesa_main.jpg");
+}
+
+.contenido {
+  background-color: var(--raisin-black);
+  background: linear-gradient(var(--raisin-black), var(--raisin-black))
+      padding-box,
+    linear-gradient(
+        to right,
+        var(--primario),
+        var(--secundario),
+        var(--terciario)
+      )
+      border-box;
+  border: 4px solid transparent;
+  border-top: none;
+}
+
+/* CSS DE LA PROPIA PÁGINA */
+
+.lista-proyectos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  /* margin: 1rem; */
+  padding: 0.5rem;
+  background: linear-gradient(var(--raisin-black), var(--raisin-black))
+      padding-box,
+    linear-gradient(
+        to right,
+        var(--terciario),
+        var(--primario),
+        var(--terciario),
+        var(--secundario)
+      )
+      border-box;
+  border: 0.5rem solid transparent;
+}
+
+.paquete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #003b00; */
+  /* border: rgb(0, 255, 85) solid 1px; */
+}
+
+.enlace-pro {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(var(--raisin-black), var(--raisin-black))
+      padding-box,
+    linear-gradient(
+        to right,
+        var(--primario),
+        var(--secundario),
+        var(--terciario)
+      )
+      border-box;
+  border: 4px solid transparent;
+  /* border-top: none; */
+}
+
+.div-pro {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 13rem;
+  /* width: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* filter:contrast(300%); */
+  /* opacity: 0; */
+  /* border: blue solid 2px; */
+}
+
+.paquete p {
+  position: relative;
+  text-align: center;
+  /* border: solid goldenrod 2px; */
+  color: var(--raisin-black);
+  color: white;
+}
+.portfolio {
+  background-image: url("../images/Portfolio_pers.png");
+}
+.freelancer {
+  background-image: url("../images/freelancer.PNG");
+}
+
+/* Movil */
+@media (max-width: 725px) {
+  .lista-proyectos {
+    /* display: grid; */
+    grid-template-columns: 1fr;
+  }
+  .menu-ham{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    /* height: 4rem; */
+    /* border: solid red 2px; */
+  }
+}

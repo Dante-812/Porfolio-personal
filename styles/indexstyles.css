@@ -1,0 +1,296 @@
+:root {
+  /* Genericos */
+  --raisin-black: #1b1e25ff;
+  --soft-raisin-black: rgb(59, 65, 80);
+  --mint-cream: #f7fff7ff;
+  /* Colores synth escogidos */
+  --primario: #ffd319;
+  --secundario: #ff901f;
+  --terciario: #f222ff;
+  --cuaternario: #ff2975;
+  --quintinario: #8c1eff;
+  --extra1: #5268c1;
+  --extra2: #7592e5;
+  --rosaLogo: #e010be;
+  --amarilloLogo: #f8e71c;
+}
+
+.nave {
+  background-color: var(--raisin-black);
+  border-bottom: solid 2px var(--primario);
+}
+
+.nave a {
+  color: var(--primario);
+}
+
+.nave a div {
+  /* height: 4rem; */
+  /* width: 19vw; */
+  /* font-size: 1rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--raisin-black);
+}
+
+.nave div:hover {
+  color: var(--raisin-black);
+  background-color: var(--primario);
+}
+
+.menu-icon{
+  background-image: url("../Logos/hamburguesa_main.jpg");
+}
+
+.contenido {
+  background-color: var(--mint-cream);
+  background-color: var(--raisin-black);
+  background: linear-gradient(var(--raisin-black), var(--raisin-black))
+      padding-box,
+    linear-gradient(
+        to right,
+        var(--primario),
+        var(--secundario),
+        var(--terciario)
+      )
+      border-box;
+  border: 4px solid transparent;
+  border-top: none;
+}
+
+.desc {
+  border-radius: 50%;
+}
+
+.descripcion {
+  margin: auto;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  text-justify: auto;
+  width: 70%;
+  line-height: 4rem;
+  color: var(--mint-cream);
+
+  background: linear-gradient(
+        var(--soft-raisin-black),
+        var(--soft-raisin-black)
+      )
+      padding-box,
+    linear-gradient(to right, var(--terciario), var(--cuaternario)) border-box;
+  border-radius: 1rem;
+  border: 2px solid transparent;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--raisin-black);
+  border-radius: 1rem;
+  border: 2px solid transparent;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.skillsg1 {
+  color: var(--primario);
+  width: 45%;
+}
+.skillsg2 {
+  width: 45%;
+}
+
+.skill-tit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 5rem;
+  margin: 2rem 0rem;
+  /* border: solid red 2px; */
+}
+
+.skill-normal {
+  color: var(--primario);
+}
+
+.skill-proceso {
+  width: 50%;
+}
+
+.skill-proceso,
+#punto1,
+#punto2,
+#punto3 {
+  margin: auto 0.5rem;
+  color: var(--cuaternario);
+  font-family: "Press Start 2P";
+}
+
+/* .skill-proceso,
+#punto1,
+#punto2,
+#punto3{
+  border: solid red 2px;
+} */
+
+.skillsg1 .skill {
+  background: linear-gradient(var(--raisin-black), var(--raisin-black))
+      padding-box,
+    linear-gradient(
+        to right,
+        var(--primario),
+        var(--secundario),
+        var(--terciario)
+      )
+      border-box;
+  border: 2px solid transparent;
+  border-left: none;
+  border-right: none;
+}
+.skillsg2 .skill {
+  background: linear-gradient(var(--raisin-black), var(--raisin-black))
+      padding-box,
+    linear-gradient(
+        to right,
+        var(--terciario),
+        var(--cuaternario),
+        var(--terciario)
+      )
+      border-box;
+  border: 2px solid transparent;
+  border-left: none;
+  border-right: none;
+}
+
+.skill {
+  color: var(--air-superiority-blue);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: 1rem 0rem;
+  padding: 0.5rem 0rem;
+}
+
+.skill h2 {
+  width: 10rem;
+  font-size: 1.2rem;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--mint-cream);
+}
+
+.logo {
+  width: 6rem;
+  height: 6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.html {
+  background-image: url("../Logos/html4.webp");
+}
+
+.css {
+  background-image: url("../Logos/css32.png");
+}
+
+.js {
+  background-image: url("../Logos/javascript.png");
+}
+
+.react {
+  background-image: url("../Logos/react-removebg-preview.png");
+}
+
+.logo-pareja {
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logos2 {
+  width: 45%;
+  height: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.git {
+  background-image: url("../Logos/git\ solo1.png");
+}
+
+.github {
+  background-image: url("../Logos/github\ solo.png");
+}
+
+.java {
+  background-image: url("../Logos/java.png");
+}
+
+.mysql {
+  background-image: url("../Logos/MySQL_Dolphin.jpg");
+}
+
+/* Media query para que los puntos no se superpongan 
+   antes de llegar al movil display*/
+@media (max-width: 1230px) {
+  .skillsg2 .skill-tit{
+    justify-content: left;
+  }
+  /* #punto1,
+  #punto2,
+  #punto3 {
+    display: none;
+  } */
+}
+
+/* Movil */
+@media (max-width: 725px) {
+
+  .skillsg2 .skill-tit{
+    justify-content: center;
+  }
+
+  .skills {
+    flex-direction: column;
+    align-items: center;
+    /* width: 90%; */
+    /* border: solid red 2px; */
+  }
+  /* #punto1,
+  #punto2,
+  #punto3 {
+    display: inline;
+  } */
+  .skills .skill{
+    width: 100%;
+    /* border: solid blue 2px; */
+  }
+  .skillsg1{
+    width: 100%;
+  }
+  .skillsg2{
+    width: 100%;
+  }
+
+  .menu-ham{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    /* height: 4rem; */
+    /* border: solid red 2px; */
+  }
+}

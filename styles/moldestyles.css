@@ -1,0 +1,119 @@
+:root {
+    /* Genericos */
+  --raisin-black: #1b1e25ff;
+  --soft-raisin-black: rgb(59, 65, 80);
+  --mint-cream: #f7fff7ff;
+  /* Colores matrix */
+  --verdeOscuro: #003b00;
+  --verde: #008f11;
+  --verdeClaro: #00ff41;
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  /* font-family: "Atomic Age"; */
+  /* font-family: "Lalezar", sans-serif; */
+  /* font-family: "Monoton", sans-serif; */
+  /* font-family: "Press Start 2P"; */
+  /* font-family: "Audiowide", sans-serif; */
+  /* font-family: "Boogaloo", sans-serif; */
+  font-family: "Michroma", sans-serif;
+  background-color: var(--raisin-black);
+}
+
+.nave {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+.nave ul {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content:space-evenly;
+  width: 100%;
+}
+
+/* #nave-list-pc{
+  display: flex;
+} */
+
+.nave li{
+  width: 100%;
+}
+
+.nave a div {
+  height: 4rem;
+  /* width: 19vw; */
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-ham{
+  display: none;
+}
+
+#nave-list-mv{
+  display: none;   
+}
+
+.contenido {
+  margin: 0rem 1rem;
+}
+
+.caja-prin {
+  padding: 1rem;
+}
+
+.hero {
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem auto;
+  background-image: url("../Logos/Logotipo_Daniel/logo_coloreado-transformed.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+@media (max-width:725px){
+
+  .nave{
+    justify-content: end;
+  }
+  .menu-icon{
+    background-size: cover;
+    height: 4rem;
+    width: 4rem;
+  }
+
+  #nave-list-pc{
+    display: none;
+  }
+
+  .menu-ham{
+    /* display: flex; */
+    /* display: block; */
+    flex-direction: column;
+    width: 100%;
+    height: 4rem;
+    /* border: solid red 2px; */
+  }
+  #nave-list-mv{
+    display: block;   
+    z-index: 1;
+  }
+}

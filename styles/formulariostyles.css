@@ -1,0 +1,201 @@
+:root {
+  /* Genericos */
+  --raisin-black: #1b1e25ff;
+  --soft-raisin-black: rgb(59, 65, 80);
+  --mint-cream: #f7fff7ff;
+  /* Colores synth escogidos */
+  --primario: #ffd319;
+  --secundario: #ff901f;
+  --terciario: #f222ff;
+  --cuaternario: #ff2975;
+  --quintinario: #8c1eff;
+  --extra1: #5268c1;
+  --extra2: #7592e5;
+  --rosaLogo: #e010be;
+  --amarilloLogo: #f8e71c;
+}
+
+.nave {
+  background-color: var(--raisin-black);
+  border-bottom: solid 2px var(--primario);
+}
+
+.nave a {
+  color: var(--primario);
+}
+
+.nave a div {
+  /* height: 4rem; */
+  /* width: 19vw; */
+  /* font-size: 1rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--raisin-black);
+}
+
+.nave div:hover {
+  color: var(--raisin-black);
+  background-color: var(--primario);
+}
+
+.menu-icon{
+  background-image: url("../Logos/hamburguesa_main.jpg");
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  /* margin: auto; */
+  align-items: center;
+}
+
+.formulario {
+  /* width: 60%; */
+  border: solid var(--terciario) 3px;
+  border-radius: 1rem;
+
+/*  */
+/* display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+border: solid var(--quintinario) 3px; */
+/* border: none; */
+
+}
+
+.formu-presu{
+  display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+/* border: solid var(--quintinario) 3px; */
+}
+
+
+.field {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border: solid var(--quintinario) 3px;
+  /* border: none; */
+}
+
+.field h2 {
+  margin: 1rem 0rem;
+}
+
+.empresa,
+.tipo,
+.imagen-corpo,
+.web-actu,
+.text-presu {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 90%;
+  /* width: 40rem; */
+  border:solid 2px var(--secundario);
+  border-radius: 1rem;
+}
+.campos1 {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  /* border: solid 2px fuchsia; */
+  /* border:solid 2px var(--secundario); */
+  border: solid 2px var(--cuaternario);
+  border-radius: 1rem;
+}
+
+.empresa label,
+input {
+  margin: 0.5rem 1rem 0rem 1rem;
+}
+
+.tipo {
+  align-items: center;
+}
+
+.tipo h4 {
+  margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.tipo div {
+  display: flex;
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  /* width: 10rem; */
+  /* border: red solid 2px; */
+}
+
+.imagen-corpo {
+  align-items: center;
+}
+
+.imagen-corpo-in {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  /* border: solid red 2px; */
+}
+
+.imagen-corpo-in label {
+  width: 20%;
+  margin-left: 0.5rem;
+  /* border: solid red 2px; */
+}
+
+.web-actu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.web-actu label{
+    margin: 0.5rem 0rem 0.5rem 1rem;
+}
+
+.web-actu input{
+    /* margin: 0; */
+    margin-bottom: 0.5rem;
+    width: 90%
+}
+
+.text-presu{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-presu label{
+    margin: 0.5rem 0rem 0.5rem 0.5rem;
+}
+
+.text-presu textarea{
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.boton-enviar{
+  color: var(--raisin-black);
+  background-color: var(--amarilloLogo);
+  padding: 1rem;
+  border-style: none;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 725px) {
+  .menu-ham{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    /* height: 4rem; */
+    /* border: solid red 2px; */
+  }
+
+  .campos1 {
+flex-direction: column;
+  }
+}

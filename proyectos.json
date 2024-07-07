@@ -1,0 +1,24 @@
+{
+    "proyectos":[
+        {
+            "link":"https://acdant.github.io/Daniel-Portfolio/",
+            "enlaceImagen":"url('./images/Portfolio_pers.png')",
+            "descripcion":"Enlace a este mismo portfolio"
+        },
+        {
+            "link":"../images/freelancer.PNG",
+            "enlaceImagen":"url('./images/freelancer.png')",
+            "descripcion":"Enlace a portfolio Freelancer"
+        },
+        {
+            "link":"https://acdant.github.io/Daniel-Portfolio/",
+            "enlaceImagen":"url('./images/Portfolio_pers.png')",
+            "descripcion":"Enlace a este mismo portfolio"
+        },
+        {
+            "link":"https://acdant.github.io/Daniel-Portfolio/",
+            "enlaceImagen":"../images/Portfolio_pers.png",
+            "descripcion":"Enlace a este mismo portfolio"
+        }
+    ]
+}

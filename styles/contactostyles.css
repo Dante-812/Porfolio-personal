@@ -1,0 +1,16 @@
+:root {
+    /* Genericos */
+    --raisin-black: #1b1e25ff;
+    --soft-raisin-black: rgb(59, 65, 80);
+    --mint-cream: #f7fff7ff;
+    /* Synth noche */
+    --primario: #68d0fa;
+    --secundario: #49aaee;
+    --terciario: #e6bde8;
+    --cuaternario: #ee9eba;
+    --extra1: #1687ec;
+  }
+
+  .contenido{
+    border: solid red 2px;
+  }
